@@ -1,0 +1,178 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section{
+    padding: 30px 0px;
+    background-color: #f5f5f5;
+}
+
+.section-header .hr{
+    border-bottom: #0078ff solid 7px;
+    width: 40px;
+    margin: auto;
+}
+/* nav edits */
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #0078ff;
+    background-color: #fff;
+}
+.bg-dark-trans{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 1.1em;
+    font-weight: 500;
+    overflow: hidden;
+}
+.hr{
+    border-bottom: #fff solid 2px;
+    position: relative;
+    right: 120%;
+    transition: right 0.5s;
+}
+.nav-active .hr{
+    right: 0;
+}
+.nav-link:hover .hr{
+    right: 0;
+}
+.navbar-brand{
+    font-size: 2em;
+}
+
+
+
+/* header */
+header{
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+header .layer{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+/* about */
+.about .hr, .contact .hr{
+    border-bottom: #0078ff solid 3px;
+}
+
+/* services */
+.services i{
+    border: #0078ff 10px solid;
+    width: fit-content;
+    transition: all 0.5s;
+}
+.services .card:hover i{
+    border: #9bc9ff 10px solid;
+    background-color: #0078ff;
+    color: #fff;
+}
+
+
+/* stats */
+.stats{
+    background-image: url(../images/counters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.stats .layer, .comments .layer, .contact .layer{
+    background-color: rgba(0, 122, 255, 0.7);
+    height: 100%;
+}
+.stats i{
+    border: rgba(255, 255, 255, 0.8) 10px solid;
+    width: fit-content;
+}
+
+/* portfolio */
+.card-plus{
+    border: #0078ff 2px solid;
+    width: fit-content;
+    font-size: larger;
+    cursor: pointer;
+}
+.card-img-top{
+    transition:transform 1s;
+}
+.portfolio .card:hover img{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+/* comments */
+.comments{
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0px 5px;
+}
+
+/* blog */
+.card-footer img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.blog .card-title, .id span{
+    cursor: pointer;
+    transition: color 0.3s ;
+}
+
+.blog .card-title:hover, .blog .id:hover span{
+    color: #0078ff !important;
+}
+
+/* contact */
+.contact{
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.contact form button{
+    border: #0078ff solid;
+    font-size: larger;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.contact form button:hover{
+    border: #9bc9ff solid;
+    background-color: #3c97ff;
+}
+.contact-infos i{
+    color: #0078ff;
+    margin-right: 10px;
+}
+.social-medias i{
+    font-size:25px;
+    border: #0078ff solid 3px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-right:5px;
+}
+.social-medias i:hover{
+    border: #9bc9ff  solid;
+    background-color: #0078ff;
+    color: #fff;
+}
+
+/* footer */
+footer{
+    background-color: #0062d3;
+    font-size: large;
+}
